@@ -1,0 +1,4 @@
+[autorun]
+label=HALOMCC
+icon=icon.ico
+open=launch_game.bat
