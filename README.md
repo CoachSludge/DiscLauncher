@@ -1,7 +1,14 @@
 # 💿 DiscLauncher Creator
 
 **DiscLauncher Creator** is a lightweight tool that lets you create auto-launching game discs for PC using real physical media. You can generate `autorun.inf` and `launch_game.bat` files for either Steam games or emulator setups — and optionally burn them to a disc using **ImgBurn**.
-https://www.youtube.com/watch?v=NmyrBc6criQ
+
+---
+
+##Demo
+[![Watch the demo](https://img.youtube.com/vi/NmyrBc6criQ/hqdefault.jpg)](https://www.youtube.com/watch?v=NmyrBc6criQ)
+
+---
+
 ## 🧰 Features
 
 - 🔘 Supports both **Steam** games (via AppID) and **Emulator + ROM** combos
