@@ -1,5 +1,26 @@
 # DiscLauncher v2 — initial foundation
 
+## DiscLauncher Studio (recommended)
+
+On Windows with Python 3.9+ installed, open the project and run:
+
+```powershell
+python v2/gui.py
+```
+
+The dark desktop Studio provides guided Steam or BizHawk disc creation: select the mode, enter a disc title and unique ID, browse for game/emulator files and optional artwork/config, pick an empty destination, and click **Build Disc Folder**. The window stays responsive while large emulator folders are copied and shows success/error feedback. No terminal commands are needed after launch.
+
+It currently creates **disc folders**, not ISO images or burned discs; you can manually burn the result with disc authoring software. Windows AutoPlay may show a prompt rather than auto-executing the generated launcher.
+
+### Current UI features
+
+- Steam launch-disc builder and BizHawk portable-disc builder
+- File/folder pickers, validation messages, visible build activity, and Open Output Folder
+- Local writable configuration-folder creation for BizHawk launcher
+- Existing v1 application preserved
+
+The Studio intentionally uses Tkinter from the Python standard library, so no extra Python GUI framework is required.
+
 This is the first incremental v2 implementation. The legacy `DiscLauncher_PLUS.py` GUI remains unchanged and usable.
 
 ## Requirements
