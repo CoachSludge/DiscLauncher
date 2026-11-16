@@ -1,0 +1,7 @@
+# DiscLauncher generated discs and local Python files
+DiscLauncherOutput/
+out/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
