@@ -119,7 +119,7 @@ def build_bizhawk(output: Path, emulator: Path, rom: Path, game_id: str,
     output = output.expanduser().resolve()
     if output == emulator or output in emulator.parents or emulator in output.parents:
         raise ValueError("Output must not overlap the emulator folder")
-    if output == rom.parent or output in rom.parents or rom.parent in output.parents:
+    if output == rom.parent or output in rom.parents:
         raise ValueError("Output must not overlap the ROM folder")
     output = prepare_output(output)
     write_autoplay(output, disc_label(label), icon)
