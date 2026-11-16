@@ -20,4 +20,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - run: python -m compileall -q v2
       - run: python -m unittest discover -s v2/tests -v
